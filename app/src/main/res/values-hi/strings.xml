@@ -2,5 +2,9 @@
 <resources>
     <string name="app_name">CST2335Labs</string>
     <string name="hello_message">Namaste</string>
+    <string name="header">Dekhiye URI</string>
     <string name="ButtonText">I\’m a button</string>
+    <string name="checkbox">Check **            </string>
+    <string name="switcher">On--Off</string>
+    <string name="typehint"> yaha type kariye</string>
 </resources>

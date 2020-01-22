@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_grid);
+        setContentView(R.layout.activity_main_relative);
         final CheckBox cb = (CheckBox) findViewById(R.id.checkbox);
 
         cb.setOnClickListener(new View.OnClickListener() {
