@@ -15,7 +15,7 @@
             android:id="@+id/YourProfile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Your Profile ">
+            android:text="@string/YourPicture">
 
         </TextView>
     </LinearLayout>
@@ -29,7 +29,7 @@
             android:id="@+id/Username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Username">
+            android:text="@string/Username">
 
         </TextView>
     </LinearLayout>
@@ -43,7 +43,7 @@
             android:id="@+id/EnterYourUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your username">
+            android:hint="@string/EnterYourUsername">
 
         </EditText>
     </LinearLayout>
@@ -57,7 +57,7 @@
             android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="Email">
+            tools:text="@string/Email">
 
         </TextView>
     </LinearLayout>
@@ -71,7 +71,7 @@
             android:id="@+id/emailTextID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your Email">
+            android:hint="@string/emailTextID">
 
         </EditText>
     </LinearLayout>
@@ -85,7 +85,7 @@
             android:id="@+id/YourPicture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Your picture">
+            android:text="@string/YourPicture">
 
         </TextView>
     </LinearLayout>
@@ -115,7 +115,7 @@
             android:id="@+id/ClickButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Click the button above to take the picture">
+            android:text="@string/ClickButton">
 
         </TextView>
     </LinearLayout>

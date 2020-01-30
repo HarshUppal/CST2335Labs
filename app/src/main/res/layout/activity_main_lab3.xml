@@ -32,7 +32,7 @@
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type your email here"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"/>
 
     </LinearLayout>
@@ -45,7 +45,7 @@
             android:id="@+id/TypePassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Type your password" />
+            android:text="@string/TypePassword" />
 
     </LinearLayout>
 
@@ -67,7 +67,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:text="@string/button" />
     </LinearLayout>
 
 </LinearLayout>

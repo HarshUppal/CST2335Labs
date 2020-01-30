@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-    <string name="Username">Username</string>
+    <string name="app_name">CST2335Labs</string>
+    <string name="Username">Username**</string>
     <string name="EnterYourUsername">Username daaliye</string>
     <string name="Email">Email@</string>
     <string name="emailTextID">Email daaliye    </string>
