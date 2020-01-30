@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CST2335Labs</string>
-    <string name="hello_message">Hello World</string>
-    <string name="header">Look At My GUI!</string>
-    <string name="ButtonText">I\’m a button</string>
-    <string name="checkbox">Check this out!         </string>
-    <string name="switcher">On/Off</string>
-    <string name="typehint">Enter here</string>
+    <string name="Username">Username</string>
+    <string name="EnterYourUsername">Enter Your Username</string>
+    <string name="Email">Email</string>
+    <string name="emailTextID">Enter Your email       </string>
+    <string name="YourPicture">Your Picture</string>
+    <string name="ClickButton">Click the button above to take the picture</string>
+
+    <string name="EnterEmail">Enter your email address</string>
+    <string name="email">Type Your Email here</string>
+
+    <string name="TypePassword">Type Password here</string>
+    <string name="button">Login</string>
 </resources>

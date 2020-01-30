@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CST2335Labs</string>
-    <string name="hello_message">Namaste</string>
-    <string name="header">Dekhiye URI</string>
-    <string name="ButtonText">I\’m a button</string>
-    <string name="checkbox">Check **            </string>
-    <string name="switcher">On--Off</string>
-    <string name="typehint"> yaha type kariye</string>
+
+
+    <string name="Username">Username</string>
+    <string name="EnterYourUsername">Username daaliye</string>
+    <string name="Email">Email@</string>
+    <string name="emailTextID">Email daaliye    </string>
+    <string name="YourPicture">Tumhari Picture</string>
+    <string name="ClickButton">Uparwale button se picture click kre</string>
+
+    <string name="EnterEmail">apna Email daaliye</string>
+    <string name="email">Email yaha daaliye</string>
+    <string name="TypePassword">Password yaha daalie</string>
+    <string name="button">Login**</string>
 </resources>

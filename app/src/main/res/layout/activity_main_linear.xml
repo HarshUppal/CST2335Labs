@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <TextView
-            android:text="@string/header"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp" />
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <Button
-            android:text="@string/ButtonText"
+
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
             android:id="@+id/checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/checkbox"
+
             android:layout_weight="1"
             android:layout_gravity="center" />
     </LinearLayout>
@@ -44,7 +44,7 @@
             android:src="@drawable/flag" />
         <Switch
             android:id="@+id/switch1"
-            android:text="@string/switcher"
+
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="fill"
