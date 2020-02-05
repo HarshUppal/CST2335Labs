@@ -13,4 +13,13 @@
 
     <string name="TypePassword">Type Password here</string>
     <string name="button">Login</string>
+
+    <string name="clickAboveText">Click to chat</string>
+
+    <string name="goToChatButton">Click to chat</string>
+
+    <string name="YourProfile">Your Profile</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="typehint">Type here</string>
 </resources>

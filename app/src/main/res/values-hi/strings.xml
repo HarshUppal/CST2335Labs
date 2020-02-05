@@ -13,4 +13,12 @@
     <string name="email">Email yaha daaliye</string>
     <string name="TypePassword">Password yaha daalie</string>
     <string name="button">Login**</string>
+    <string name="clickAboveText">Chat ke liye click kre</string>
+    <string name="goToChatButton">Chat Click</string>
+    <string name="YourProfile">Tumhari Profile</string>
+
+    <string name="send">Bhejiye</string>
+    <string name="receive">Prapat Kariye</string>
+    <string name="typehint">yaha type kariye</string>
+
 </resources>

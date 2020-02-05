@@ -1,24 +1,25 @@
 package com.example.cst2335labs;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.material.snackbar.Snackbar;
-
 import static com.google.android.material.snackbar.Snackbar.make;
 
 public class MainActivity extends AppCompatActivity {
     String emailAddress;
+
     public static final String SHARED_PREFS = "sharedPrefs";
     public static final String TEXT = "text";
     private EditText editText;
@@ -27,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_lab3);
-
 
         SharedPreferences sp = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         emailAddress = sp.getString(TEXT, "");
@@ -47,51 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(goToProfile);
             }
         }));
-      /**  final CheckBox cb = (CheckBox) findViewById(R.id.checkbox);
-
-        cb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (cb.isChecked()) {
-                    Toast.makeText(MainActivity.this, "Here is more information", Toast.LENGTH_LONG).show();
-                }
-            }
-        });
-
-
-
-        final Switch switch1 = (Switch) findViewById(R.id.switch1);
-        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, final boolean isChecked) {
-                String text = null;
-                if (isChecked) {
-                    text = " on";
-                    switch1.setChecked(true);
-                } else {
-                    text = " off";
-                    switch1.setChecked(false);
-                }
-                make(buttonView, "the switch is now " + text, Snackbar.LENGTH_LONG).setAction("UNDO", new View.OnClickListener() {
-                    public void onClick(View v) {
-                        if (isChecked) {
-                            switch1.setChecked(false);
-                        } else
-                            switch1.setChecked(true);
-                        make(findViewById(R.id.switch1), " ", Snackbar.LENGTH_LONG).show();
-
-
-                    }
-
-                }).show();
-
-
-            }
-        });
-    }
-}**/
-
-
     }
 
     protected void onPause() {
@@ -107,5 +62,3 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Saved", Toast.LENGTH_SHORT).show();
     }
 }
-
-
